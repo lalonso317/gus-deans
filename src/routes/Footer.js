@@ -8,7 +8,7 @@ const Footer = () =>{
             <div className="footer-main-container">
                 <div className="footer-info">
                     <p className="footer-label-1">&copy; Gus Dean's 2019</p>
-                    <p className="footer-label-2">4061 Silvestri ln. Las Vegas Nv, 89120</p>
+                    <a className="footer-label-2" href="https://goo.gl/maps/Mab14bzqnHvixkni6" target="_blank" rel="noopenner noreferrer"><p >4061 Silvestri LN. Las Vegas NV, 89120</p></a>
                     <p className="footer-label" type="tel">702-749-6721</p>
                 </div>
                 <div className="footer-links">
@@ -21,7 +21,7 @@ const Footer = () =>{
                     <a className="header-icon" href="https://www.instagram.com/gusdeans" rel="noopener noreferrer" target="_blank"><i className="fa fa-instagram"></i></a>
                     <a className="header-icon"  href="https://www.yelp.com/biz/gus-deans-las-vegas" rel="noopener noreferrer" target="_blank"><i className="fa fa-yelp"></i></a>
                 </div>
-                <img className="footer-img"src={GUS}></img>
+                <img alt="" className="footer-img"src={GUS}></img>
             </div>
         </div>
     )

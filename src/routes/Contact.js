@@ -4,34 +4,37 @@ import React from 'react'
 const Contact = (props) =>{
     return(
         <div>
-            <div>
-            <p>LOCATIONS</p>
-                <div>
-                    <p>
-                        Nellis AFB Exchange
+            <div className="contact-main-container">
+                <div className="contact-student-union">
+                    <p className="contact-title">
+                        UNLV Student Union 
+                    </p>
+                    <p className="contact-body">
+                    Open: Mon-Sat 10 AM - 6 PM
+                    Las Vegas, NV
+                    </p>
+                    <iframe width="100%" height="450" frameborder="0" style={{border:'0'}}
+                    src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJa-Yx2ADFyIARX8VOk_n6nAo&key=AIzaSyCaaCWcczAfWmZYhzNIk2a1eWR2sk8__o0" allowfullscreen></iframe>
+                </div>
+                <div className="contact-meadows">
+                    <p className="contact-title">
+                        Meadows Mall
+                    </p>
+                    <p className="contact-body">
                         Open: Mon-Sat 10 AM - 8 PM
                         Las Vegas, NV
                     </p>
-                    <iframe width="600" height="450" frameborder="0" style={{border:'0'}}
-                    src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJf8FO5nXdyIARIF2Repn0Lm0&key=AIzaSyCaaCWcczAfWmZYhzNIk2a1eWR2sk8__o0" allowfullscreen></iframe>
+                    <iframe width="100%" height="450" frameborder="0" style={{border:'0'}}
+                    src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJSVCC6nvByIARqjIif5GDXEA&key=AIzaSyCaaCWcczAfWmZYhzNIk2a1eWR2sk8__o0" allowfullscreen></iframe>
                 </div>
-                <div>
-                    <p>
-                        UNLV Student Union
-                        Open: Mon-Sat 10 AM - 6 PM
-                        Las Vegas, NV
-                    </p>
-                    <iframe width="600" height="450" frameborder="0" style={{border:'0'}}
-                    src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJa-Yx2ADFyIARX8VOk_n6nAo&key=AIzaSyCaaCWcczAfWmZYhzNIk2a1eWR2sk8__o0" allowfullscreen></iframe>
-                </div>
-                <div>
-                    <p>
+                <div className="contact-upcoming">
+                    <p className="contact-body">
                     Soon Coming to a Location Near You
                     </p>
-                    <p>
-                    Call Anytime
-                    (702) 749-6721
-                    bob@gusdeans.com
+                    <p className="contact-body">
+                    Call Anytime:&nbsp;
+                     <a className="c-link" href="tel:702-749-6721">702-749-6721</a>&nbsp;&nbsp;
+                   <a className="c-link" href="mailto:bob@gusdeans.com">bob@gusdeans.com</a>
                     </p>
                 </div>
             </div>
