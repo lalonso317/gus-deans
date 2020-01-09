@@ -9,7 +9,7 @@ const Footer = () =>{
                 <div className="footer-info">
                     <p className="footer-label-1">&copy; Gus Dean's 2019</p>
                     <a className="footer-label-2" href="https://goo.gl/maps/Mab14bzqnHvixkni6" target="_blank" rel="noopenner noreferrer"><p >4061 Silvestri LN. Las Vegas NV, 89120</p></a>
-                    <p className="footer-label" type="tel">702-749-6721</p>
+                    <a style={{textDecoration:'none', color: 'white'}} href="tel:702-749-6721"><p className="footer-label">702-749-6721</p></a>
                 </div>
                 <div className="footer-links">
                     <Link className="f-link" style={{textDecoration: 'none'}} to="/"><p className="footer-link-text">Home</p></Link>
