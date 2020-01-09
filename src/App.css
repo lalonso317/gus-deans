@@ -1,0 +1,182 @@
+/* UNIVERSAL */
+
+
+/* HEADER */
+.header-main-container{
+  width:100%;
+  background: rgb(107, 80, 153);
+  margin: 0;
+  display: flex;
+  border-bottom: 5px solid rgb(27, 21, 39);
+}
+.header-main-logo{
+  width: 10%;
+  margin: 20px 30px;
+}
+.header-links{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 85%;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid white;
+
+}
+.header-link-text{
+  color: white;
+  margin: 0 10px;
+  font-size: 28px;
+  font-family: 'Francois One', sans-serif;
+}
+.header-link-text::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: rgb(178, 133, 255) ;
+  transition: width .3s;
+}
+
+.header-link-text:hover::after {
+  width: 100%;
+  transition: width .3s;
+}
+.link{
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 15px;
+}
+.header-socials{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 5%;
+  font-size: 25px;
+  cursor: pointer;
+}
+.header-icon{
+  color: white;
+  margin: 8px 0;
+}
+.header-icon:hover{
+  transition: 0.1s ease-in-out;
+  color: rgb(178, 133, 255);
+}
+
+/* MAIN */
+.home-main-container{
+  width: 80%;
+  margin: auto;
+}
+.home-top-img{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.home-multi-img{
+  width: 60%;
+  margin: 18px;
+}
+.home-promise{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 10px;
+  margin-top: 10px;
+  text-align: center;
+  font-family: 'Francois One', sans-serif;
+  border-left: 2px solid rgb(178, 133, 255);
+}
+.home-promise-title{
+  font-size: 28px;
+  width: 40%;
+  color: rgb(58, 46, 0);
+  border-bottom: 4px solid rgb(255, 204, 0);
+}
+.home-promise-body{
+  font-size: 24px;
+  color: rgb(58, 46, 0);
+  text-transform: uppercase;
+}
+.home-mid-img{
+  display: flex;
+  margin: 30px 25px;
+  border-top: 5px solid rgb(27, 21, 39);
+}
+.home-premium-img{
+  width: 45%;
+  height: 50%;
+  margin: 94px;
+  padding: 15px;
+  /* background-image: url(/static/media/multipleIce.d31ded7a.jpg);
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-size: cover; */
+}
+.home-insta{
+  margin-top: 70px;
+}
+
+
+/* FLAVORS */
+.flavors-list{
+  list-style-type: none;
+}
+
+
+/* CONTACT */
+
+
+/* FOOTER */
+.footer-main-container{
+  min-height: 20vh;
+  background: rgb(107, 80, 153);
+  display: flex;
+  color: white;
+  font-size: 22px;
+  margin: auto;
+  width: 100%;
+}
+.footer-info{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 10px;
+}
+.footer-label{
+  margin: 0 15px;
+}
+.footer-label-1, .footer-label-2{
+  padding: 0 15px;
+  border-right: 4px solid rgb(240, 240, 240);
+}
+
+.footer-links{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px;
+}
+.f-link{
+  color: white;
+  margin: 0 5px;
+}
+.f-link:hover{
+  transition: 0.1s ease-in-out;
+  color: rgb(178, 133, 255);
+}
+.footer-link-text{
+  margin: 0;
+}
+.footer-icons{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 15px 0;
+}
+.footer-img{
+  margin-top: 15px;
+  margin-left: 40px;
+  width: 8%;
+  height: 10%;
+}
