@@ -10,7 +10,7 @@
   border-bottom: 5px solid rgb(27, 21, 39);
 }
 .header-main-logo{
-  width: 10%;
+  width:65%;
   margin: 20px 30px;
 }
 .header-links{
@@ -62,6 +62,9 @@
   transition: 0.1s ease-in-out;
   color: rgb(178, 133, 255);
 }
+
+
+
 
 /* MAIN */
 .home-main-container{
@@ -420,4 +423,171 @@
   margin-left: 40px;
   width: 8%;
   height: 10%;
+}
+
+/* BURGER */
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: absolute;
+  width: 36px;
+  height: 30px;
+  right: 36px;
+  top: 36px;
+  display: none;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: white;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: rgb(178, 133, 255);
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+  outline: none;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: rgb(107, 80, 153);
+}
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+  outline: none;
+  width: 250px !important;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: rgb(107, 80, 153);
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+  overflow: none !important;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: rgba(178, 133, 255, 0.459);
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: white;
+  padding: 0.8em;
+  outline: none;
+  font-size: 22px;
+  line-height: 40px;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+  outline: none;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgb(0,0,0,0) !important;
+}
+
+.header-img-container{
+  width: 15%;
+}
+
+
+@media(max-width: 900px){
+  .bm-burger-button{
+    display: block;
+  }
+  .header-links{
+    display: none;
+  }
+  .header-main-logo{
+    width: 62%;
+  }
+  .header-socials{
+    display: none;
+  }
+  .header-icon{
+    margin: 30px 15px;
+  }
+  .header-img-container{
+    width: 25%;
+  }
+  .burger-socials{
+    margin-top: 15px;
+  }
+  .home-main-container{
+    width: 100%;
+    margin: auto;
+  }
+  .home-top-img{
+    display: block;
+  }
+  .home-multi-img{
+    width: 100%;
+    margin: 0px;
+  }
+  .home-promise{
+    border-left: none;
+    border-top:  2px solid rgb(178, 133, 255);
+  }
+  .home-mid-img{
+    display: block;
+  }
+  .home-no-spoon{
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .footer-main-container{
+    font-size: 18px;
+  }
+  .footer-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer-label, .footer-label-1{
+    border: none;
+    margin: 0px;
+    margin-top: 15px;
+    padding:0px;
+  }
+  .footer-img{
+    display: none;
+  }
+  .flavors-main-container{
+    display: block;
+  }
+  .flavors{
+    width: 70%;
+  }
+  .flavor-imgs{
+    width: 80%;
+    margin-bottom: 15px;
+  }
+  .contact-student-union, .contact-meadows{
+    width: 80%;
+  }
+  .contact-upcoming{
+    width: 80%;
+  }
+  .contact-body{
+    font-size: 18px;
+  }
+  .home-insta{
+    width: 100%;
+    margin: auto;
+  }
 }
